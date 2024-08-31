@@ -1,8 +1,8 @@
 The goal of this project is to get the COVID data from the 'https://www.worldometers.info/' website and calculate COVID affected percentage and mortality percentage.
 
 Technology Used : Java, Selenium
-
-Concepts Used :  *Java
+  
+                 *Java
                     - Reading the text file
                     - List & Map.
                     - String to Integer conversion.
