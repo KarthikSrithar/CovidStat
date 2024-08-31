@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class GetCountryDetails 
 {
+	//Getting country details from the text file as an input
 	public String[] countryDetails(String file) throws FileNotFoundException
 	{
 		File countryFile = new File(file);
