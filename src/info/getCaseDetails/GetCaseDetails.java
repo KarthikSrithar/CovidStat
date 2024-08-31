@@ -15,7 +15,7 @@ public class GetCaseDetails extends GetCountryDetails
 {
 	
 	HashMap<String, ArrayList<String>> details = new HashMap<String, ArrayList<String>>();
-	
+	//Getting data from 'www.worldometers.info' website to calculate covid affected and mortality percentage
 	public HashMap<String, ArrayList<String>> caseDetails(String[] allCountries)
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\Tech\\Supporting Files\\Selenium Drivers\\chromedriver\\chromedriver.exe");
