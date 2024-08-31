@@ -12,6 +12,7 @@ import info.getCaseDetails.*;
 
 public class CalculateStats extends GetCaseDetails
 {
+	//Calculating the COVID affectted percentage and mortality percentage
 	public void calculate(HashMap<String, ArrayList<String>> details) throws IOException
 	{
 		BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\Tech\\Codes\\CovidStat\\TestResult\\Result.txt"));
